@@ -78,6 +78,16 @@ hr{
 	height: 10%;
 }
 
+.border{
+	border-collapse: collapse;
+	background-color: #dedede;
+}
+
+.col-md-6 td:hover {
+	background-color:#2DBAA7;
+	color: #ffffff;
+}
+
 .spacing{
 	border-spacing: 10px;
 }
@@ -135,11 +145,11 @@ hr{
 	color: red;
 }
 
-.border{
-	border: 2px solid #2dbaa7;
-	margin-left: 10px;
-	margin-right: 10px;
-}
+/*.border{
+	border: 1px solid;
+	background-color: green;
+	
+}*/
 
 #rowcolor{
 	background-color:#aab3ba;
@@ -204,6 +214,8 @@ hr{
 		text-align: left;
 		height: 40px;
 		width: 80px;
+		font-family: 'opensans';
+		color: #262626;
 }
 		
 .days {
@@ -237,9 +249,22 @@ hr{
 	border: 1px solid #2dbaa7;
 	margin-left: 10px;
 	margin-right: 10px;
+	border-top: 2px solid #2DBAA7;
 }
-	
-
+.border2{
+	border: 1px solid #2dbaa7;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-top-color:white;
+}
+.border3{
+	border: 1px solid #2dbaa7;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-top: 2px solid #2DBAA7;
+	border-bottom-color:white;
+}
+ 
 .last: td hover{
 	background-color: #2dbaa7;
 }
